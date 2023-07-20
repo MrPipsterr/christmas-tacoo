@@ -1,7 +1,9 @@
 * {
-    font-family: "Titillium Web", "RixSGo", sans-serif;
-    color: #282828;
-    word-break: break-all;
+    /* font-family: "Titillium Web", "RixSGo", sans-serif; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 500px;
+    color: black;
+    word-break: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-left: -20px;
 }
 
 .header img {
@@ -94,6 +97,7 @@ body {
     box-shadow: 0 0 50px #0002;
     text-align: left;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .card h2{
@@ -101,6 +105,7 @@ body {
     margin-left: 10%;
     margin-top: -25%;
     opacity: 0;
+    text-decoration: none;
 }
 
 .card p {
@@ -109,6 +114,7 @@ body {
     margin-top: 10px;
     width: 50%;
     opacity: 0;
+    text-decoration: none;
 }
 
 .card img{
@@ -132,6 +138,7 @@ body {
     margin-top: -30%;
     opacity: 100%;
     transition: .5s;
+    text-decoration: none;
 }
 
 .card:hover p {
@@ -143,4 +150,5 @@ body {
     opacity: 100%;
     transition: .5s;
     font-weight: 750;
+    text-decoration: none;
 }
