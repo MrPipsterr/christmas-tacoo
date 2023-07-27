@@ -109,6 +109,10 @@ body {
     margin-bottom: 10px;
 }
 
+#works h2 {
+    margin-bottom: 10px;
+}
+
 #works {
     display: grid;
     justify-content: center;
@@ -117,11 +121,6 @@ body {
     margin-left: 300px;
     margin-right: 300px;
 }
-
-#works h2 {
-    margin-bottom: 10px;
-}
-
 
 .card {
     height: 500px;
@@ -323,5 +322,117 @@ footer hr {
         margin-top: 10px;
         margin-bottom: 20px;
         text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header img {
+        height: 260px;
+        width: 250px;
+    }
+
+    .biodata {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: x-large;
+    }
+
+    #showreel h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: xx-large;
+    }
+
+    #latest h2 {
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: xx-large;
+    }
+
+    #works h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: xx-large;
+    }
+    
+    #works {
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card {
+        height: 400px;
+        flex: 1;
+        margin-bottom: 20px;
+        box-shadow: 0 0 50px #0002;
+        text-align: left;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    .card img{
+        height: max-content;
+        width: 100%;
+        object-fit: cover;
+        filter: none;
+        border-radius: 15px;
+    }
+
+    .card:hover {
+        filter: blur(2px) grayscale() brightness(45%);
+        transition: .5s;
+    }
+    
+    .card:hover h2 {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -30%;
+        opacity: 100%;
+        transition: .5s;
+        text-decoration: none;
+    }
+    
+    .card:hover p {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: 10px;
+        width: 50%;
+        opacity: 100%;
+        transition: .5s;
+        font-weight: 750;
+        text-decoration: none;
+    }
+
+    footer {
+        bottom: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #181818;
+        height: auto;
+        width: auto;
+        padding-top: 20px;
+        color: #fff;
+        margin-top: 50px;
     }
 }
