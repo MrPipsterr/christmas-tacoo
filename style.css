@@ -98,12 +98,14 @@ body {
 
 #latest {
     justify-content: center;
+    align-items: center;
     display: grid;
     text-align: center;
     margin-top: 30px;
 }
 
 #latest h2 {
+    display: grid;
     margin-bottom: 10px;
 }
 
