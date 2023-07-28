@@ -145,7 +145,7 @@ body {
 .card p {
     position: relative;
     margin-left: 10%;
-    margin-top: 10px;
+    top: 10px;
     width: 50%;
     opacity: 0;
     text-decoration: none;
@@ -326,13 +326,6 @@ footer hr {
 }
 
 
-
-
-
-
-
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #header img {
@@ -348,6 +341,19 @@ footer hr {
         margin-left: 50px;
         margin-right: 50px;
         font-size: x-large;
+    }
+
+    .biodata li {
+        height: 50px;
+        border-radius: 7px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s ease 0s;
+    }
+    
+    .biodata li:hover {
+        background-color: rgb(79, 0, 0);
     }
 
     #showreel h2 {
@@ -379,13 +385,34 @@ footer hr {
     }
 
     .card {
-        height: 400px;
+        height: 500px;
         flex: 1;
         margin-bottom: 20px;
         box-shadow: 0 0 50px #0002;
         text-align: left;
         border-radius: 20px;
         text-decoration: none;
+    }
+    
+    .card h2{
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        top: -65%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: smaller;
+    }
+    
+    .card p {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -47%;
+        width: 50%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: larger;
     }
 
     .card img{
@@ -400,27 +427,121 @@ footer hr {
         filter: blur(2px) grayscale() brightness(45%);
         transition: .5s;
     }
+
+    footer {
+        bottom: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #181818;
+        height: auto;
+        width: auto;
+        padding-top: 20px;
+        color: #fff;
+        margin-top: 50px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    #header img {
+        height: 180px;
+        width: 170px;
+    }
+
+    .biodata {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: large;
+    }
+
+    .biodata li {
+        height: 50px;
+        border-radius: 7px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s ease 0s;
+    }
     
-    .card:hover h2 {
-        color: red;
-        position: relative;
-        margin-left: 10%;
-        margin-top: -30%;
-        opacity: 100%;
-        transition: .5s;
+    .biodata li:hover {
+        background-color: rgb(79, 0, 0);
+    }
+
+    #showreel h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+
+    #latest h2 {
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+
+    #works h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+    
+    #works {
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card {
+        height: 500px;
+        flex: 1;
+        margin-bottom: 20px;
+        box-shadow: 0 0 50px #0002;
+        text-align: left;
+        border-radius: 20px;
         text-decoration: none;
     }
     
-    .card:hover p {
+    .card h2{
         color: red;
         position: relative;
         margin-left: 10%;
-        margin-top: 10px;
+        top: -69%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .card p {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -47%;
         width: 50%;
         opacity: 100%;
-        transition: .5s;
-        font-weight: 750;
         text-decoration: none;
+        font-size: larger;
+    }
+
+    .card img{
+        height: max-content;
+        width: 100%;
+        object-fit: cover;
+        filter: none;
+        border-radius: 15px;
+    }
+
+    .card:hover {
+        filter: blur(2px) grayscale() brightness(45%);
+        transition: .5s;
     }
 
     footer {
@@ -435,4 +556,125 @@ footer hr {
         color: #fff;
         margin-top: 50px;
     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    #header img {
+        height: 170px;
+        width: 160px;
+    }
+
+    .biodata {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: medium;
+    }
+
+    .biodata li {
+        height: 50px;
+        border-radius: 7px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s ease 0s;
+    }
+    
+    .biodata li:hover {
+        background-color: rgb(79, 0, 0);
+    }
+
+    #showreel h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+
+    #latest h2 {
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+
+    #works h2 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+    
+    #works {
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card {
+        height: 500px;
+        flex: 1;
+        margin-bottom: 20px;
+        box-shadow: 0 0 50px #0002;
+        text-align: left;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    .card h2{
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        top: -68%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .card p {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -47%;
+        width: 50%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    .card img{
+        height: max-content;
+        width: 100%;
+        object-fit: cover;
+        filter: none;
+        border-radius: 15px;
+    }
+
+    .card:hover {
+        filter: blur(2px) grayscale() brightness(45%);
+        transition: .5s;
+    }
+
+    footer {
+        bottom: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #181818;
+        height: auto;
+        width: auto;
+        padding-top: 20px;
+        color: #fff;
+        margin-top: 50px;
+    }
+}
+
+/* Large devices (laptop) */
+@media only screen and (min-width: 1024px) {
+    
 }
