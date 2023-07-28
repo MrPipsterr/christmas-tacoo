@@ -328,6 +328,18 @@ footer hr {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    * {
+        font-family: 'futura-medium', sans-serif;
+        font-weight: 500px;
+        color: white;
+        word-break: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+
     #header img {
         height: 260px;
         width: 250px;
@@ -444,6 +456,17 @@ footer hr {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px){
+    * {
+        font-family: 'futura-medium', sans-serif;
+        font-weight: 500px;
+        color: white;
+        word-break: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
     #header img {
         height: 180px;
         width: 170px;
@@ -560,6 +583,17 @@ footer hr {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    * {
+        font-family: 'futura-medium', sans-serif;
+        font-weight: 500px;
+        color: white;
+        word-break: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
     #header img {
         height: 170px;
         width: 160px;
