@@ -146,7 +146,7 @@ body {
     position: relative;
     margin-left: 10%;
     top: 10px;
-    width: 50%;
+    width: 60%;
     opacity: 0;
     text-decoration: none;
     font-size: larger;
@@ -170,7 +170,7 @@ body {
     color: red;
     position: relative;
     margin-left: 10%;
-    margin-top: -30%;
+    margin-top: -33%;
     opacity: 100%;
     transition: .5s;
     text-decoration: none;
@@ -181,7 +181,7 @@ body {
     position: relative;
     margin-left: 10%;
     margin-top: 10px;
-    width: 50%;
+    width: 60%;
     opacity: 100%;
     transition: .5s;
     font-weight: 750;
