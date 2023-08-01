@@ -41,7 +41,7 @@ body {
 }
 
 #card1 {
-    background-image: url(/images/bg_sample.jpg);
+    background-image: url(/images/banner_guessv1.jpg);
     background-size: 1700px;
     display: flex;
     margin-top: 50px;
@@ -62,7 +62,7 @@ body {
 }
 
 #card2 {
-    background-image: url(/images/bg_sample.jpg);
+    background-image: url(/images/banner_guessv2.jpg);
     background-size: 1700px;
     display: flex;
     /* margin-top: 50px;
@@ -81,7 +81,7 @@ body {
 }
 
 #card3 {
-    background-image: url(/images/bg_sample.jpg);
+    background-image: url(/images/banner_ahs.jpg);
     background-size: 1700px;
     display: flex;
     /* margin-top: 50px;
@@ -100,7 +100,7 @@ body {
 }
 
 #card4 {
-    background-image: url(/images/bg_sample.jpg);
+    background-image: url(/images/banner_ilkom.jpg);
     background-size: 1700px;
     display: flex;
     /* margin-top: 50px;
@@ -119,7 +119,7 @@ body {
 }
 
 #card5 {
-    background-image: url(/images/bg_sample.jpg);
+    background-image: url(/images/banner_northern.jpg);
     background-size: 1700px;
     display: flex;
     /* margin-top: 50px;
