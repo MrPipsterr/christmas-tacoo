@@ -431,13 +431,34 @@ footer hr {
         height: max-content;
         width: 100%;
         object-fit: cover;
-        filter: none;
+        filter: blur(2px) grayscale() brightness(45%);
         border-radius: 15px;
     }
 
-    .card:hover {
-        filter: blur(2px) grayscale() brightness(45%);
-        transition: .5s;
+    .card:hover h2, .card:active h2{
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        top: -65%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: smaller;
+    }
+    
+    .card:hover p, .card:active p {
+        color: red;
+        position: relative;
+        margin-left: 10%;
+        margin-top: -47%;
+        width: 50%;
+        opacity: 100%;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    .card:hover img, .card:active img{
+        filter: none;
+        transition: .2s;
     }
 
     footer {
