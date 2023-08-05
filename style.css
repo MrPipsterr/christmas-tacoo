@@ -28,8 +28,9 @@ body {
 }
 
 #header img {
-    height: 160px;
-    width: 150px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
 }
 
 .title {
